@@ -7,6 +7,7 @@
  */
 static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
+float alpha = 0.8;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -82,9 +83,6 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* bg opacity */
-float alpha = 0.8;
-
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* solarized dark */
@@ -104,10 +102,6 @@ static const char *colorname[] = {
 	"#6c71c4",  /* 13: brmagenta*/
 	"#93a1a1",  /* 14: brcyan   */
 	"#fdf6e3",  /* 15: brwhite  */
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"black",
 };
 
 
@@ -128,10 +122,6 @@ static unsigned int defaultrcs = 15;
  * 7: Snowman ("☃")
  */
 static unsigned int cursorshape = 2;
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 258;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
 
 /*
  * Default columns and rows numbers
