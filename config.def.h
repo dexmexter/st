@@ -87,32 +87,33 @@ float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
+    /* Gruvbox colors */
 	/* 8 normal colors */
-	"#1e282c", /* black   */
-	"#ff9800", /* red     */
-	"#8bc34a", /* green   */
-	"#ffc107", /* yellow  */
-	"#03a9f4", /* blue    */
-	"#e91e63", /* magenta */
-	"#009688", /* cyan    */
-	"#37474f", /* white   */
+	"#282828", /* black   */
+	"#cc241d", /* red     */
+	"#98971a", /* green   */
+	"#d79921", /* yellow  */
+	"#458588", /* blue    */
+	"#b16286", /* magenta */
+	"#689d6a", /* cyan    */
+	"#a89984", /* white   */
 
 	/* 8 bright colors */
-	"#526975", /* black   */
-	"#ffa74d", /* red     */
-	"#9ccc65", /* green   */
-	"#ffa000", /* yellow  */
-	"#81d4fa", /* blue    */
-	"#ad1457", /* magenta */
-	"#26a69a", /* cyan    */
-	"#eceff1", /* white   */
+	"#928374", /* black   */
+	"#fb4934", /* red     */
+	"#b8bb26", /* green   */
+	"#fabd2f", /* yellow  */
+	"#83a598", /* blue    */
+	"#d3869b", /* magenta */
+	"#8ec07c", /* cyan    */
+	"#ebdbb2", /* white   */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#263238", /* background */
-	"#eceff1", /* foreground */
-    "#eceff1", /* cursor */
+	"#282828", /* background */
+	"#ebdbb2", /* foreground */
+    "#ebdbb2", /* cursor */
 };
 
 
